@@ -1,0 +1,444 @@
+
+.body{
+	margin: 0 0 0 0;
+	font-family: Lato, Arial;
+}
+
+/* <---- Header ----> */
+.toolbar{
+	display: inline-block;
+	height:  45px;
+	width:  100%;
+	background-color: #0078ff;
+}
+
+#logo{
+	display: inline-block;
+	position: relative;
+	margin:  auto;
+	padding-left: 10px;
+	width: 300px;
+	height: 45px;
+
+	font-size: 2rem;
+	color: white;
+}
+
+.menu{
+	display: inline-block;
+	position: absolute;
+
+	top: 0px;
+	right: 0px;
+	font-weight: 200;
+
+	width:  250px;
+	font-size: 1.1rem;
+	color: white;
+}
+
+.link{
+	display: inline-block;
+	height: 35px;
+	padding: 10px 10px 0px 10px;
+}
+.link:hover{
+	background-color: #0098ff;
+}
+
+/* <---- Footer ----> */
+.footer{
+	display: block;
+	position: relative;
+	bottom: 0px;
+
+	width:  100%;
+	background-color: #272727;
+	color: white;
+	font-weight: 200;
+
+	padding: 10px;
+}
+
+.title{
+	display: inline-block;
+	width: 100%;
+}
+
+.footer #contacts{
+	display: inline-block;
+	font-size: 1rem;
+	margin-right: 60px;
+}
+
+.title #about{
+	display: inline-block;
+	font-size: 1rem;
+	margin-left: 40px;
+}
+
+.title #jobs{
+	display: inline-block;
+	font-size: 1rem;
+	margin-left: 40px;
+}
+
+.title #faq{
+	display: inline-block;
+	font-size: 1rem;
+	margin-left: 40px;
+}
+
+.footer #address{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 0.7rem;
+}
+p{
+	margin: auto;
+}
+
+
+/* <---- Main Content ----> */
+.content {
+	margin:20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.content .header{
+	display: inline-block;
+	margin: auto;
+	height: 30px;
+	background-color: #00bc35;
+}
+
+.header #headline{
+	display: inline-block;
+	position: relative;
+	margin-top: 5px;
+	text-align: center;
+	width: 248px;
+	height: 30px;
+	color: white;
+}
+
+.content #boxes{
+
+	display: inline-table;
+
+	padding-top: 10px;
+	text-align: center;
+	font-weight: 300;
+	width: 49.7%;
+	height: 250px;
+	font-size: 14px;
+	background-color: #ededed;
+}
+
+.button {
+	font-size: 16px;
+	font-weight: 200;
+	background: #00ff72;
+	color: white;
+	padding: auto;
+	height: 24px;
+}
+
+.cont #start{
+	margin: auto;
+	margin-top: 33px;
+	padding: 3px;
+	width: 80px;
+}
+
+.cont #phone{
+	margin: auto;
+	padding: 3px;
+	width: 180px;
+	border-radius: 15px;
+}
+
+.button:hover{
+	background-color: #00dc62;
+}
+
+.pic{
+	display: block;
+	position: relative;
+	margin: 15px;
+	height: 125px;
+	width: 125px;
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#online{
+	background-image: url("img/online.png");
+}
+
+#byphone{
+	background-image: url("img/byphone.png");
+}
+
+.hiring{
+	display: inline-block;
+	margin-top: 50px;
+	position: relative;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 200;
+	text-align: center;
+	background-color:  white;
+}
+
+#applynow{
+	display: block;
+	margin-top: 10px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slogan{
+	display: inline-block;
+	width: 400px;
+	height: 30px;
+	margin-bottom: 30px;
+	padding-top: 7px;
+	box-shadow: 0px 0px 10px #ddd;
+	border-radius: 10px;
+	color: #008a27;
+}
+
+#trail{
+	background-image: url("img/trail.png");
+}
+
+/*----------------Order Registration------------------*/
+
+.registration{
+	display: inline-table;
+	text-align: center;
+}
+
+.orderBox{
+	display: inline-table;
+}
+.registration #headline{
+	display: block;
+	width: 315px;
+	background-color: #00bc35;
+	color: #FFF;
+	font-weight: 200;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input{
+	display: block;
+	background: transparent; 
+	padding: 10px;
+	width: 300px;
+
+ 
+   	border-width: 1px;
+   	border-style: solid;
+   	border-radius: 10px;
+   	border-color: #DDD;
+   	margin-left: auto;
+   	margin-right: auto;
+   	margin-top: 10px;
+   	margin-bottom: 10px;
+
+  	font-size: 1.1rem; 
+    color: #222;
+}
+
+.picWeight{
+	display: inline-block;
+	margin: 0px;
+	height: 70px;
+	width: 70px;
+	background-size: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	border-style: solid;
+	border-radius: 100px;
+	border-color: #ccc;
+}
+.picWeight[type=transport]{
+	width: 100px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #ccc;
+}
+#order{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	padding: 5px;
+	width: 100px;
+}
+
+.picWeight:hover{
+	border-color: #00ff72;
+}
+
+.picWeight:visited{
+	border-color: #00ff72;
+}
+
+.picWeight[id=paper]{
+	background-image: url("img/paper.png");
+}
+.picWeight[id=smallbox]{
+	background-image: url("img/smallbox.png");
+}
+.picWeight[id=mediumbox]{
+	background-image: url("img/mediumbox.png");
+}
+.picWeight[id=bigbox]{
+	background-image: url("img/bigbox.png");
+}
+
+.picWeight[id=bicycle]{
+	background-image: url("img/bicycle.png");
+}
+.picWeight[id=trail2]{
+	background-image: url("img/trail2.png");
+}
+
+input[type=checkbox]{
+	margin-top: 15px;
+	color: #888;
+}
+
+/*---------------- Confirmation ------------------*/
+
+.registration #result{
+	display: block;
+	margin: 10px;
+	width: 300px;
+}
+
+.registration #thanks{
+	display: block;
+	margin-bottom: 75%;
+}
+
+.registration #headline[type=negative]{
+	background-color: #c80000;
+}
+
+.column{
+	display: inline-table;
+	width: 120px;
+}
+
+.row{
+	display:table-row;
+	height: 100px;
+	font-size: 0.8rem;
+	text-align: left;
+}
+/*---------------- Admin ------------------*/
+.order{
+	display: table;
+	width: 1024px;
+	height: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 11px;
+	margin-bottom: 5px;
+
+	border-style: solid;
+	border-color: #AAA;
+	border-radius: 6px;
+	border-width: 1px;
+	transition: height 2s;
+}
+
+.order:hover{
+	background-color: #EEE;
+    height: 150px;
+}
+
+.order:hover .item[id="pickup"]{
+	text-align: left;
+	display: inline-block;
+	visibility: visible;
+	margin: 10px;
+	transition: display 2s;
+	transition-delay: 2s;
+}
+.order:hover .item[id="delivery"]{
+	text-align: left;
+	display: inline-block;
+	visibility: visible;
+	margin: 10px;
+	transition: display 2s;
+	transition-delay: 2s;
+}
+
+.item{
+	display: inline-block;
+	width: 170px;
+	text-align: center;
+}
+
+.item[id="pickup"]{
+	display: none;
+	width: 450px;
+	visibility: collapse;
+	height: 0px;
+}
+
+.item[id="delivery"]{
+	display: none;
+	width: 450px;
+	visibility: collapse;
+	height: 0px;
+}
+#buttonCancell{
+	font-size: 16px;
+	font-weight: 200;
+	background: #FF7575;
+	color: white;
+	padding: auto;
+	height: 24px;
+	padding: 5px;
+	margin-right: auto;
+	width: 75px;
+}
+
+#buttonCancell:hover{
+	background-color: #CD0000;
+}
+
+#buttonDone{
+	font-size: 16px;
+	font-weight: 200;
+	background: #00ff72;
+	color: white;
+	padding: auto;
+	height: 24px;
+	padding: 5px;
+	margin-right: 0px;
+	width: 75px;
+}
+
+#buttonDone:hover{
+	background-color: #00dc62;
+}
